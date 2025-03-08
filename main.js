@@ -1,4 +1,6 @@
 import GameScene from "./scenes/game.js";
+import MenuScene from "./scenes/menu.js";
+import VictoryScene from "./scenes/victory.js";
 
 class BootScene extends Phaser.Scene {
   constructor() {
@@ -27,11 +29,11 @@ const config = {
   physics: {
     default: "arcade",
     arcade: {
-      debug: true,
+      debug: false,
     },
   },
 
-  scene: [GameScene],
+  scene: [MenuScene, GameScene, VictoryScene],
 };
 
 const game = new Phaser.Game(config);
