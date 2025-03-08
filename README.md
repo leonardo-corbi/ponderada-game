@@ -2,7 +2,7 @@
 
 # Tente agora mesmo
 
-[Acesse meu site](https://leonardo-corbi.github.io/ponderada-game/)
+[Acesse o jogo aqui!](https://leonardo-corbi.github.io/ponderada-game/)
 
 # Jogo de Plataforma 2D com Phaser 3
 
